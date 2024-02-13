@@ -13,8 +13,6 @@ body {
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.808), black),
-  url(../images/background.jpg); */
   background-size: cover;
 }
 
