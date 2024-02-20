@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 110%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell;
   font-weight: 400;
 }
 
@@ -13,8 +13,6 @@ body {
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.808), black),
-  url(../images/background.jpg); */
   background-size: cover;
 }
 
@@ -32,10 +30,10 @@ body {
   border: 3px solid black;
 }
 
-.displayHS {
-  min-height: 60PX;
+.display-hs {
+  min-height: 60px;
   width: 100%;
-  background: rgb(0, 0, 0);
+  background: #000;
   border-radius: 5px;
   color: white;
   text-align: center;
@@ -49,7 +47,7 @@ body {
   text-align: center;
   margin: auto;
   margin-top: 20px;
-  background: rgb(0, 224, 0);
+  background: #00e000;
   color: white;
   border-radius: 5px;
   border: 3px solid white;
@@ -58,5 +56,5 @@ body {
 }
 
 .shakehands:hover {
-  background-color: rgba(9, 141, 15, 0.658);
+  background-color: #098d0fa8;
 }
